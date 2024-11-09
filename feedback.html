@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback | Lonely Solo</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header id="navbar">
+      <nav class="box-shadow">
+        <h1>Lonely 🌏 Solo</h1>
+        <ul id="nav-links">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./content.html">Content</a></li>
+          <li><a href="./feedback.html">Feedback</a></li>
+        </ul>
+        <div id="nav-hamburger">
+          <span onclick="toggleNavbar()">☰</span>
+        </div>
+      </nav>
+      <div id="nav-dropdown">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./content.html">Content</a></li>
+          <li><a href="./feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Feedback -->
+    <main>
+      <section id="section-feedback">
+        <div>
+          <form class="box-shadow">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" />
+            <label for="email">Email Address</label>
+            <input type="email" id="email" />
+            <label for="feedback">Feedback for us</label>
+            <textarea name="feedback" id="feedback"></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        Learning Labs 2024 L0124062
+        <a href="https://github.com/daffarahman">Muhammad Daffa Rahman</a>
+      </p>
+    </footer>
+
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>
